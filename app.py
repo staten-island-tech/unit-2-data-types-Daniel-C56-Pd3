@@ -20,5 +20,28 @@
 
 #2
 
-x = input('walk', 'run')
-print(x)
+# Mad Libs
+
+# x = input('Today I  to school.')
+# print(f"Today I {x} to school.")
+# y = input('Today I  to school. Then, I went to  in the lunch room.')
+# print(f"Today I {x} to school. Then, I went to {y} in the lunch room.")
+# q = input('Today I  to school. Then, I went to  in the lunch room. After I went to science class and got paired up with ')
+# print(f"Today I {x} to school. Then, I went to {y} in the lunch room. After I went to science class and got paired up with {q}")
+# c = input('Today I  to school. Then, I went to  in the lunch room. After I went to science class and got paired up with  .When we finished the project, we got it checked and got a score of .')
+# print(f"Today I {x} to school. Then, I went to {y} in the lunch room. After I went to science class and got paired up with {q}. When we finished the project, we got it checked and got a score of {c}.")
+# t = input('Today I  to school. Then, I went to  in the lunch room. After I went to science class and got paired up with  .When we finished the project, we got it checked and got a score of . After the day,  and I went home on the bus and saw !!!!!!')
+# print(f"Today I {x} to school. Then, I went to {y} in the lunch room. After I went to science class and got paired up with {q}. When we finished the project, we got it checked and got a score of {c}. After the day, {q} and I went home on the bus and saw {t}!!!!!!")
+
+# x = "test"
+# print(f"hello {x}")
+
+#Challenge #3 
+
+remainder = 0
+if remainder < 0:
+    print('odd')
+elif remainder == 0:
+    print('even')
+else:
+    print('cannot conprehend')
