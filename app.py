@@ -38,10 +38,14 @@
 
 #Challenge #3 
 
-remainder = 0
-if remainder < 0:
-    print('odd')
-elif remainder == 0:
-    print('even')
-else:
-    print('cannot conprehend')
+# x = int(input('type here'))
+
+# if x % 2 == 0:
+#     print("even")
+# else:
+#     print("odd")
+
+#Challenge # 4
+
+x = int(input('Tips'))
+x = [0%,15%,20%,25%]
