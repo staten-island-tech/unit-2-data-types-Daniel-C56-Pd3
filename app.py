@@ -47,5 +47,27 @@
 
 #Challenge # 4
 
-x = int(input('Tips'))
-x = [0%,15%,20%,25%]
+# Bill = int(input('Paid Here'))
+
+
+# service = input("Service")
+# if service == ('Great'):
+#     print('25% tip')
+# if service == ('Good'):
+#     print('20% tip')
+# if service == ('Mid'):
+#     print('15% tip')
+# if service == ('Bad'):
+#     print('O% tip')
+# else:
+#     print('Error')
+        
+#Challenge # 5
+# x = int(input("Type number here"))
+# for y in range ('1 ,1+x'):
+#     if {x}%y==0:
+#         print(y)
+x = int(input("Enter the value of N: "))
+for y in range (1,(x,1)):
+    if x%y==0:
+        print(x)
