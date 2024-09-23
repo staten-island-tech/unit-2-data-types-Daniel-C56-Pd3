@@ -63,11 +63,39 @@
 #     print('Error')
         
 #Challenge # 5
-# x = int(input("Type number here"))
-# for y in range ('1 ,1+x'):
-#     if {x}%y==0:
+
+# x = int(input("Number:"))
+# for y in range (1,x+1):
+#   if x%y==0:
+#       print(y)
+
+#Challenge # 6
+
+# def gcf (y,n):
+#     if y > n:
+#         y,n = n,y
+
+# x = int(input("Number1"))
+# for y in range (1,x+1):
+#     if x%y==0:
 #         print(y)
-x = int(input("Enter the value of N: "))
-for y in range (1,(x,1)):
-    if x%y==0:
-        print(x)
+# i = int(input("Number2"))
+# for n in range (1,i+1):
+#     if i%n==0:
+#         print(n)
+ 
+# if y==n:
+#     print(gcf)
+
+def gcf (Number, AnotherNumber):
+    if Number > AnotherNumber:
+        Number , AnotherNumber = AnotherNumber , Number
+
+Number = int(input("Number"))
+AnotherNumber = int(input("AnotherNumber"))
+if Number and AnotherNumber in range (1,Number+1 and 1,AnotherNumber+1):
+    if Number%Anothernumber==0:
+        print(Number and AnotherNumber)
+
+if Number==AnotherNumber:
+    print(gcf)
