@@ -71,31 +71,24 @@
 
 #Challenge # 6
 
-# def gcf (y,n):
-#     if y > n:
-#         y,n = n,y
+x = int(input('Number1'))
+i = int(input('Number2'))
+for y in range (1,1+x):
+    if x%y==0:
+        print(y)
+for n in range (1,1+i):
+    if i%n==0:
+        print(n)
+if y==n:
+    print('gcf')
 
-# x = int(input("Number1"))
-# for y in range (1,x+1):
-#     if x%y==0:
-#         print(y)
-# i = int(input("Number2"))
-# for n in range (1,i+1):
-#     if i%n==0:
-#         print(n)
- 
-# if y==n:
+
+# Number = int(input("Number"))
+# AnotherNumber = int(input("AnotherNumber"))
+# for Number in range (1,Number+1 ):
+#      AnotherNumber in range (1, AnotherNumber+1):
+#     if Number%Anothernumber==0:
+#         print(Number and AnotherNumber)
+
+# if Number==AnotherNumber:
 #     print(gcf)
-
-def gcf (Number, AnotherNumber):
-    if Number > AnotherNumber:
-        Number , AnotherNumber = AnotherNumber , Number
-
-Number = int(input("Number"))
-AnotherNumber = int(input("AnotherNumber"))
-if Number and AnotherNumber in range (1,Number+1 and 1,AnotherNumber+1):
-    if Number%Anothernumber==0:
-        print(Number and AnotherNumber)
-
-if Number==AnotherNumber:
-    print(gcf)
