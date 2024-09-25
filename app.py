@@ -67,20 +67,20 @@
 # x = int(input("Number:"))
 # for y in range (1,x+1):
 #   if x%y==0:
-#       print(y)
+#         print(y)
 
 #Challenge # 6
 
-x = int(input('Number1'))
-i = int(input('Number2'))
-for y in range (1,1+x):
-    if x%y==0:
-        print(y)
-for n in range (1,1+i):
-    if i%n==0:
-        print(n)
-if y==n:
-    print('gcf')
+# x = (int(input('Number1')))
+# i = (int(input('Number2')))
+# for y in range (1,1+x and 1,1+i):
+#     if x%y==0 and i%y==0 :
+#         print('y')
+        
+# for n in range (1,1+i):
+#     if i%n==0:
+#         print(n)
+
 
 
 # Number = int(input("Number"))
@@ -92,3 +92,14 @@ if y==n:
 
 # if Number==AnotherNumber:
 #     print(gcf)
+
+def gcf (y , x):
+    if y > x:
+        y , x = x , y
+    for i in range (y , 0 , -1):
+        if y % i == 0 and x % i ==0:
+            print(i)
+        
+y = int(input("Number1"))
+x = int(input("Number2"))
+print (str(gcf(y , x)))
