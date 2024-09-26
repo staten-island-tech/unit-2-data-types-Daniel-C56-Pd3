@@ -93,13 +93,14 @@
 # if Number==AnotherNumber:
 #     print(gcf)
 
-def gcf (y , x):
-    if y > x:
-        y , x = x , y
-    for i in range (y , 0 , -1):
-        if y % i == 0 and x % i ==0:
-            print(i)
-        
+# def gcf (y , x):
+#     if y > x:
+#         y , x = x , y
 y = int(input("Number1"))
 x = int(input("Number2"))
-print (str(gcf(y , x)))
+for i in range (1, y+1):
+        if y % i == 0 and x % i == 0:
+            print(i >= y and x)
+        
+
+# print(str(gcf(y,x)))
