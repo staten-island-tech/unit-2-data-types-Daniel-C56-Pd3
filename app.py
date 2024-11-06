@@ -96,7 +96,7 @@
 y = int(input("number 1 "))
 x = int(input("number 2 "))
 i = 1 #common factor
-for o in range (1, y+1):
+for o in range (1, y+1) or (1, x+1):
         if y % o == 0 and x % o == 0:
             i = o
 print(i)
